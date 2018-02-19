@@ -1,5 +1,5 @@
 require 'gosu'
-class Gerar_cartas
+class Gerar_cartas 
   def initialize (window,placar)
 	@carta_2p = Gosu::Image.new(window, "2p.png", true)
 	@carta_3p = Gosu::Image.new(window, "3p.png", true)
